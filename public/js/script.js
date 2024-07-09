@@ -1,5 +1,4 @@
 const socket = io();
-const socket = new WebSocket('wss://realtime-tracker-rouge.vercel.app/socket.io/?EIO=4&transport=websocket&sid=oXy0RDVBECvdpcmjAAAC');
 
 
 if(navigator.geolocation){
